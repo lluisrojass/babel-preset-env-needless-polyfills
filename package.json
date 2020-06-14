@@ -1,0 +1,29 @@
+{
+  "name": "babel-preset-needless-polyfills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel example.js --out-dir dir"
+  },
+  "repository": {
+    "type": "git",
+    "build": "git+https://github.com/lluisrojass/babel-preset-needless-polyfills.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lluisrojass/babel-preset-needless-polyfills/issues"
+  },
+  "homepage": "https://github.com/lluisrojass/babel-preset-needless-polyfills#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "browserslist": "^4.12.0",
+    "caniuse-lite": "^1.0.30001083",
+    "core-js": "^3.6.5"
+  }
+}
